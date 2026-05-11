@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AfroXpress | Software Solutions & Architecture</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-950 text-gray-300">
+
+    <!-- Navbar -->
+    <nav class="fixed w-full z-50 bg-gray-950/80 backdrop-blur-md border-b border-gray-800">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-extrabold text-white">Afro<span class="text-blue-500">Xpress</span></a>
+            <div class="hidden md:flex space-x-6 text-sm font-medium">
+                <a href="#proyectos" class="hover:text-white transition">Proyectos</a>
+                <a href="#sobre-mi" class="hover:text-white transition">Sobre Mí</a>
+                <a href="#contacto" class="hover:text-white transition">Contacto</a>
+            </div>
+            <a href="https://wa.me/535XXXXXXXX?text=Hola,%20vi%20tu%20portafolio%20y%20quiero%20hablar%20de%20un%20proyecto" target="_blank" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-semibold transition">
+                Hablemos 💬
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="min-h-screen flex items-center justify-center text-center px-6">
+        <div>
+            <p class="text-blue-400 font-semibold mb-4 tracking-wider uppercase text-sm">Arquitectura de Software & Desarrollo</p>
+            <h1 class="text-5xl md:text-7xl font-extrabold text-white mb-6 leading-tight">
+                Construyo software que <br> resuelve problemas reales.
+            </h1>
+            <p class="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto mb-8">
+                Especializado en sistemas offline-first, alta performance y realidades complejas. Enfocado en soluciones para el contexto cubano y latinoamericano.
+            </p>
+            <a href="#proyectos" class="inline-block bg-white text-gray-900 font-bold px-8 py-3 rounded-full hover:bg-gray-200 transition text-lg">
+                Ver Proyectos ↓
+            </a>
+        </div>
+    </section>
+
+    <!-- Proyectos Section -->
+    <section id="proyectos" class="py-20 bg-gray-900">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-4xl font-extrabold text-white mb-12 text-center">Proyectos Destacados</h2>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                
+                <!-- Proyecto 1: GesTCP Pro -->
+                <div class="bg-gray-800 rounded-2xl overflow-hidden border border-gray-700 hover:border-blue-500 transition group">
+                    <div class="p-8">
+                        <div class="flex justify-between items-center mb-4">
+                            <span class="text-3xl">🧾</span>
+                            <span class="text-xs bg-blue-900 text-blue-300 px-3 py-1 rounded-full font-semibold">PRODUCCIÓN</span>
+                        </div>
+                        <h3 class="text-2xl font-bold text-white mb-3">GesTCP Pro</h3>
+                        <p class="text-gray-400 mb-6">
+                            Sistema de gestión contable offline para Tenedores de Libros en Cuba. Cumple la Gaceta 78-2024. Motor fiscal, nóminas, PDFs y sistema de licencias propio.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-6">
+                            <span class="text-xs bg-gray-700 text-gray-300 px-2 py-1 rounded">Python</span>
+                            <span class="text-xs bg-gray-700 text-gray-300 px-2 py-1 rounded">FastAPI</span>
+                            <span class="text-xs bg-gray-700 text-gray-300 px-2 py-1 rounded">SQLite</span>
+                            <span class="text-xs bg-gray-700 text-gray-300 px-2 py-1 rounded">HTMX</span>
+                            <span class="text-xs bg-gray-700 text-gray-300 px-2 py-1 rounded">Tailwind</span>
+                        </div>
+                        <a href="https://wa.me/535XXXXXXXX?text=Hola,%20quiero%20saber%20más%20de%20GesTCP%20Pro" target="_blank" class="text-blue-400 font-semibold hover:text-blue-300 transition inline-flex items-center">
+                            Más información y Demo 
+                            <svg class="w-4 h-4 ml-2 group-hover:translate-x-1 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Proyecto 2: Generador de Licencias -->
+                <div class="bg-gray-800 rounded-2xl overflow-hidden border border-gray-700 hover:border-green-500 transition group">
+                    <div class="p-8">
+                        <div class="flex justify-between items-center mb-4">
+                            <span class="text-3xl">🔑</span>
+                            <span class="text-xs bg-green-900 text-green-300 px-3 py-1 rounded-full font-semibold">HERRAMIENTA DEV</span>
+                        </div>
+                        <h3 class="text-2xl font-bold text-white mb-3">Licencing System</h3>
+                        <p class="text-gray-400 mb-6">
+                            Aplicación de escritorio para generación y gestión de licencias comerciales offline. Encriptación por Machine ID y base de datos local de clientes.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-6">
+                            <span class="text-xs bg-gray-700 text-gray-300 px-2 py-1 rounded">Python</span>
+                            <span class="text-xs bg-gray-700 text-gray-300 px-2 py-1 rounded">Tkinter</span>
+                            <span class="text-xs bg-gray-700 text-gray-300 px-2 py-1 rounded">PyInstaller</span>
+                            <span class="text-xs bg-gray-700 text-gray-300 px-2 py-1 rounded">Cryptography</span>
+                        </div>
+                        <span class="text-gray-500 font-semibold inline-flex items-center">
+                            Uso Interno / Privado
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Proyecto 3: Placeholder para el futuro -->
+                <div class="bg-gray-800/50 rounded-2xl overflow-hidden border border-dashed border-gray-700 flex items-center justify-center h-80">
+                    <div class="text-center p-8">
+                        <span class="text-5xl block mb-4">🛠️</span>
+                        <h3 class="text-xl font-bold text-gray-500 mb-2">Próximo Proyecto</h3>
+                        <p class="text-gray-600 text-sm">En construcción...</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Mí Section -->
+    <section id="sobre-mi" class="py-20">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h2 class="text-4xl font-extrabold text-white mb-6">¿Quién está detrás del código?</h2>
+            <p class="text-lg text-gray-400 mb-8">
+                Soy un Arquitecto de Software enfocado en construir herramientas robustas que funcionen en entornos con conectividad limitada o nula. Creo firmemente que la tecnología debe adaptarse a la realidad del usuario, y no al revés. 
+            </p>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+                <div class="bg-gray-900 p-4 rounded-lg border border-gray-800">
+                    <p class="text-2xl font-bold text-white">100%</p>
+                    <p class="text-xs text-gray-500">Offline First</p>
+                </div>
+                <div class="bg-gray-900 p-4 rounded-lg border border-gray-800">
+                    <p class="text-2xl font-bold text-white">FastAPI</p>
+                    <p class="text-xs text-gray-500">Backend Core</p>
+                </div>
+                <div class="bg-gray-900 p-4 rounded-lg border border-gray-800">
+                    <p class="text-2xl font-bold text-white">SQLite</p>
+                    <p class="text-xs text-gray-500">Local Storage</p>
+                </div>
+                <div class="bg-gray-900 p-4 rounded-lg border border-gray-800">
+                    <p class="text-2xl font-bold text-white">PyInstaller</p>
+                    <p class="text-xs text-gray-500">Distribución</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto Section -->
+    <section id="contacto" class="py-20 bg-gray-900 border-t border-gray-800">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h2 class="text-4xl font-extrabold text-white mb-4">¿Tienes un proyecto en mente?</h2>
+            <p class="text-gray-400 mb-8">Estoy disponible para desarrollo a medida, consultoría de arquitectura o soluciones específicas para el contexto cubano.</p>
+            <a href="https://wa.me/535XXXXXXXX?text=Hola,%20vi%20tu%20portafolio%20y%20quiero%20hablar%20de%20un%20proyecto" target="_blank" class="inline-block bg-green-600 hover:bg-green-700 text-white font-bold px-8 py-4 rounded-full transition text-lg shadow-lg shadow-green-900/50">
+                Escríbeme por WhatsApp 💬
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-950 py-8 text-center text-gray-600 text-sm border-t border-gray-800">
+        <p>© 2024 AfroXpress. Diseñado y construido desde Cuba.</p>
+    </footer>
+
+</body>
+</html>
